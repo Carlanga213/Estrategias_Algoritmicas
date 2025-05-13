@@ -44,7 +44,6 @@ while k < len(lst_a):
     k += 2
 end = time.time()
 print(f"Inserción en ArrayList: {end - start:.4f} s")
-
 linked = deque(lst)
 k = 0
 start = time.time()
@@ -53,3 +52,4 @@ while k < len(linked):
     k += 2
 end = time.time()
 print(f"Inserción en LinkedList: {end - start:.4f} s")
+
