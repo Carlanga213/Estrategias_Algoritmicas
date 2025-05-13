@@ -27,4 +27,3 @@ plt.scatter(Ns, Cs)
 plt.plot(Ns, np.polyval(coef, Ns), lw=2)
 plt.xlabel("N"); plt.ylabel("Número de llamadas")
 plt.title("Caso promedio")
-
