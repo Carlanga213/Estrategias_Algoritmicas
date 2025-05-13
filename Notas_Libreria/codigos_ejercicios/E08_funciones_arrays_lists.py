@@ -17,4 +17,3 @@ def hasDuplicates(strArray: list[str]) -> bool:
 def mode(intArray: list[int]) -> int:
     count = Counter(intArray)
     return count.most_common(1)[0][0]
-
