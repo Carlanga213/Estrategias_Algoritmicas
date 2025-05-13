@@ -25,3 +25,4 @@ for n in range(1000, 5001, 100):
         sum_cmp += c
         sum_mov += m
     print(n, sum_cmp/100, sum_mov/100)
+
